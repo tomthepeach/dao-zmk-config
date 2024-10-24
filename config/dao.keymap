@@ -40,10 +40,10 @@
 
         lower_layer {
             bindings = <
-&trans  &kp EXCLAMATION   &kp AMPERSAND      &kp AT_SIGN           &kp PERCENT            &kp DOLLAR       &kp NON_US_BACKSLASH  &kp MINUS       &kp PLUS           &kp ASTERISK      &kp QUESTION  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_HASH  &kp GRAVE             &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp SQT           &kp HASH      &trans
-&trans  &kp CARET         &kp TILDE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &kp N6                &kp EQUAL       &kp LESS_THAN      &kp GREATER_THAN  &kp COLON     &trans
-                                             &trans                &trans                 &trans           &trans                &trans          &trans
+&trans  &kp EXCLAMATION   &kp AMPERSAND      &kp AT_SIGN           &kp PERCENT            &kp DOLLAR        &kp NON_US_BACKSLASH  &kp MINUS       &kp PLUS           &kp ASTERISK      &kp QUESTION  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(NUMBER_3)  &kp GRAVE             &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp SQT           &kp HASH      &trans
+&trans  &kp CARET         &kp TILDE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE          &kp N6                &kp EQUAL       &kp LESS_THAN      &kp GREATER_THAN  &kp COLON     &trans
+                                             &trans                &trans                 &trans            &trans                &trans          &trans
             >;
         };
 
