@@ -40,19 +40,19 @@
 
         lower_layer {
             bindings = <
-&trans  &kp EXCLAMATION   &kp AMPERSAND      &kp AT_SIGN           &kp PERCENT                       &kp DOLLAR        &kp NON_US_BACKSLASH  &kp MINUS              &kp PLUS           &kp ASTERISK      &kp QUESTION  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp LA(NUMBER_3)  &kp GRAVE             &mt RIGHT_SHIFT UNDER  &kp DOUBLE_QUOTES  &kp SQT           &kp HASH      &trans
-&trans  &kp CARET         &kp TILDE          &kp LEFT_BRACE        &kp RIGHT_BRACE                   &kp RA(NUMBER_2)  &kp PIPE              &kp EQUAL              &kp LESS_THAN      &kp GREATER_THAN  &kp COLON     &trans
-                                             &trans                &trans                            &trans            &trans                &trans                 &trans
+&trans  &kp EXCLAMATION   &kp AMPERSAND      &kp AT_SIGN           &kp PERCENT                       &kp DOLLAR        &kp MINUS  &kp HASH               &kp GRAVE          &kp BACKSLASH     &kp SLASH  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp LA(NUMBER_3)  &kp PLUS   &mt RIGHT_SHIFT UNDER  &kp DOUBLE_QUOTES  &kp SQT           &kp STAR   &trans
+&trans  &kp CARET         &kp TILDE          &kp LEFT_BRACE        &kp RIGHT_BRACE                   &kp RA(NUMBER_2)  &kp PIPE   &kp EQUAL              &kp LESS_THAN      &kp GREATER_THAN  &kp COLON  &trans
+                                             &trans                &trans                            &trans            &trans     &trans                 &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &none     &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &none    &kp N7        &kp N7        &kp N8        &kp N9        &kp SLASH  &trans
-&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END  &kp NUMBER_4  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans
-&trans  &none     &none           &none         &none          &kp N0   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &trans
-                                  &trans        &trans         &trans   &trans        &trans        &trans
+&trans  &none     &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &none    &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH   &trans
+&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp STAR    &trans
+&trans  &none     &none           &none         &none          &none    &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+                                  &trans        &trans         &trans   &trans     &trans        &trans
             >;
         };
 
