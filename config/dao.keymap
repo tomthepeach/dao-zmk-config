@@ -33,7 +33,7 @@
             bindings = <
 &kp ESCAPE  &kp Q  &kp W  &kp F             &kp P             &kp B                   &kp J                    &kp L              &kp U       &kp Y    &kp SLASH      &bt BT_NXT
 &lt 1 TAB   &kp A  &kp R  &kp S             &mt LEFT_SHIFT T  &kp G                   &kp M                    &mt RIGHT_SHIFT N  &kp E       &kp I    &kp O          &lt 1 TAB
-&mo 2       &kp Z  &kp X  &kp C             &kp D             &kp V                   &kp K                    &kp H              &kp COMMA   &kp DOT  &kp SEMICOLON  &mo 2
+&tog 2      &kp Z  &kp X  &kp C             &kp D             &kp V                   &kp K                    &kp H              &kp COMMA   &kp DOT  &kp SEMICOLON  &mo 2
                           &kp LEFT_COMMAND  &kp LEFT_ALT      &mt LEFT_CONTROL SPACE  &mt RIGHT_CONTROL ENTER  &kp BACKSPACE      &kp DELETE
             >;
         };
