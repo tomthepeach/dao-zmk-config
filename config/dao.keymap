@@ -33,7 +33,7 @@
             bindings = <
 &kp ESCAPE  &kp Q  &kp W  &kp F             &kp P             &kp B                   &kp J                    &kp L              &kp U       &kp Y    &kp SLASH      &bt BT_NXT
 &lt 1 TAB   &kp A  &kp R  &kp S             &mt LEFT_SHIFT T  &kp G                   &kp M                    &mt RIGHT_SHIFT N  &kp E       &kp I    &kp O          &lt 1 TAB
-&mo 2       &kp Z  &kp X  &kp C             &kp D             &kp V                   &kp K                    &kp H              &kp COMMA   &kp DOT  &kp SEMICOLON  &tog 2
+&mo 2       &kp Z  &kp X  &kp C             &kp D             &kp V                   &kp K                    &kp H              &kp COMMA   &kp DOT  &kp SEMICOLON  &mo 2
                           &kp LEFT_COMMAND  &kp LEFT_ALT      &mt LEFT_CONTROL SPACE  &mt RIGHT_CONTROL ENTER  &kp BACKSPACE      &kp DELETE
             >;
         };
@@ -49,9 +49,9 @@
 
         raise_layer {
             bindings = <
-&trans  &none     &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &none           &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH   &trans
+&trans  &none     &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &bt BT_CLR_ALL  &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH   &trans
 &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END         &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp STAR    &trans
-&trans  &none     &none           &none         &none          &bt BT_CLR_ALL  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+&trans  &none     &none           &none         &none          &none           &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
                                   &trans        &trans         &trans          &trans     &trans        &trans
             >;
         };
